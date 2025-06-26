@@ -1,0 +1,42 @@
+body {
+    height: 100vh;
+    background-color: rgb(178, 202, 253);
+}
+
+#character {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    background-color: black;
+    transform: translateX(-50%);
+
+    /* transform: translateY(0px); */
+    /* animation-name: example;
+    animation-duration: 4s; */
+
+}
+
+.coin {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    box-shadow: 1px 1px rgb(107, 150, 241);
+
+
+    background-color: yellow;
+}
+
+#scoreText {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+#endImg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
